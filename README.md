@@ -39,7 +39,7 @@
 - логин базы данных: korn
 - пароль базы данных: postgres
 - порт графического клиента pgAdmin 4: 5050
-- логин: admin@admin.com
+- логин: *admin@admin.com*
 - пароль: root
 <hr>
 
