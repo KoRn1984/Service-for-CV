@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet logicalFilePath=""
+               id="2023-11-05-2-insert-applicants" author="korn">
+        <insert tableName="applicant">
+            <column  name="surname"  value="Petrov"/>
+            <column  name="name"  value="Ivan"/>
+            <column  name="patronymic"  value="Vasiljevich"/>
+            <column  name="description"  value="Senior Java Developer"/>
+        </insert>
+        <insert tableName="applicant">
+            <column  name="surname"  value="Sidorov"/>
+            <column  name="name"  value="Peter"/>
+            <column  name="patronymic"  value="Ivanovich"/>
+            <column  name="description"  value="Middle Java Developer"/>
+        </insert>
+        <insert tableName="applicant">
+            <column  name="surname"  value="Ivanov"/>
+            <column  name="name"  value="Vasilij"/>
+            <column  name="patronymic"  value="Sergeevich"/>
+            <column  name="description"  value="Junior Java Developer"/>
+        </insert>
+        <insert tableName="applicant">
+            <column  name="surname"  value="Pavlov"/>
+            <column  name="name"  value="Vadim"/>
+            <column  name="patronymic"  value="Vitaljevich"/>
+            <column  name="description"  value="Senior JavaScript Developer"/>
+        </insert>
+        <insert tableName="applicant">
+            <column  name="surname"  value="Sergeev"/>
+            <column  name="name"  value="Fedor"/>
+            <column  name="patronymic"  value="Yurjevich"/>
+            <column  name="description"  value="Senior Fullstack Developer"/>
+        </insert>
+        <insert tableName="applicant">
+            <column  name="surname"  value="Sidorenko"/>
+            <column  name="name"  value="Ignat"/>
+            <column  name="patronymic"  value="Petrovich"/>
+            <column  name="description"  value="Middle Fullstack Developer"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>

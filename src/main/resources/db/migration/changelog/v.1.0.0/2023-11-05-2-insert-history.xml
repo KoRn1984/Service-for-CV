@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet logicalFilePath=""
+               id="2023-10-29-2-insert-history" author="korn">
+        <insert tableName="history">
+            <column  name="date"  value="2023-11-05"/>
+            <column  name="assessment"  value="8"/>
+            <column  name="applicant_test_id"  value="1"/>
+        </insert>
+        <insert tableName="history">
+            <column  name="date"  value="2023-11-02"/>
+            <column  name="assessment"  value="7"/>
+            <column  name="applicant_test_id"  value="3"/>
+        </insert>
+        <insert tableName="history">
+            <column  name="date"  value="2023-11-01"/>
+            <column  name="assessment"  value="9"/>
+            <column  name="applicant_test_id"  value="2"/>
+        </insert>
+        <insert tableName="history">
+            <column  name="date"  value="2023-11-04"/>
+            <column  name="assessment"  value="10"/>
+            <column  name="applicant_test_id"  value="4"/>
+        </insert>
+        <insert tableName="history">
+            <column  name="date"  value="2023-11-06"/>
+            <column  name="assessment"  value="8"/>
+            <column  name="applicant_test_id"  value="6"/>
+        </insert>
+        <insert tableName="history">
+            <column  name="date"  value="2023-11-03"/>
+            <column  name="assessment"  value="6"/>
+            <column  name="applicant_test_id"  value="5"/>
+        </insert>
+
+    </changeSet>
+
+</databaseChangeLog>

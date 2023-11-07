@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet logicalFilePath=""
+               id="2023-11-05-1-create-table-applicant_test" author="korn">
+        <createTable tableName="applicant_test">
+            <column name="id" type="serial" autoIncrement="true">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="applicant_id" type="integer">
+                <constraints foreignKeyName="fk_applicant_test" referencedTableName="test" referencedColumnNames="id"/>
+            </column>
+            <column name="test_id" type="integer">
+                <constraints foreignKeyName="fk_test_applicant" referencedTableName="applicant" referencedColumnNames="id"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+</databaseChangeLog>

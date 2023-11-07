@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet logicalFilePath=""
+               id="2023-11-05-1-create-table-applicant_direction" author="korn">
+        <createTable tableName="applicant_direction">
+            <column name="applicant_id" type="integer">
+                <constraints primaryKey="true" foreignKeyName="fk_applicant_direction" referencedTableName="direction" referencedColumnNames="id"/>
+            </column>
+            <column name="direction_id" type="integer">
+                <constraints primaryKey="true" foreignKeyName="fk_direction_applicant" referencedTableName="applicant" referencedColumnNames="id"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+</databaseChangeLog>

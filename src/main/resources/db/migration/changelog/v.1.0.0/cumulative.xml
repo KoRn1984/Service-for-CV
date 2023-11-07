@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <include file="2023-10-31-1-create-table-test.xml" relativeToChangelogFile="true" />
+    <include file="2023-10-31-2-insert-tests.xml" relativeToChangelogFile="true" />
+    <include file="2023-10-29-1-create-table-direction.xml" relativeToChangelogFile="true" />
+    <include file="2023-10-29-2-insert-directions.xml" relativeToChangelogFile="true" />
+    <include file="2023-11-05-1-create-table-applicant.xml" relativeToChangelogFile="true" />
+    <include file="2023-11-05-2-insert-applicants.xml" relativeToChangelogFile="true" />
+    <include file="2023-11-05-1-create-table-applicant_test.xml" relativeToChangelogFile="true" />
+    <include file="2023-11-05-2-insert-applicant_tests.xml" relativeToChangelogFile="true" />
+    <include file="2023-11-05-1-create-table-history.xml" relativeToChangelogFile="true" />
+    <include file="2023-11-05-2-insert-history.xml" relativeToChangelogFile="true" />
+    <include file="2023-11-05-1-create-table-applicant_direction.xml" relativeToChangelogFile="true" />
+    <include file="2023-11-05-2-insert-applicant_direction.xml" relativeToChangelogFile="true" />
+
+</databaseChangeLog>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet logicalFilePath=""
+               id="2023-10-31-2-insert-tests" author="korn">
+        <insert tableName="test">
+            <column  name="name"  value="Java Core"/>
+            <column  name="description"  value="Test for Java Developer"/>
+        </insert>
+        <insert tableName="test">
+            <column  name="name"  value="Java Enterprise Edition"/>
+            <column  name="description"  value="Test for Middle Java Developer"/>
+        </insert>
+        <insert tableName="test">
+            <column  name="name"  value="Python"/>
+            <column  name="description"  value="Test for Python Developer"/>
+        </insert>
+        <insert tableName="test">
+            <column  name="name"  value="JavaScript"/>
+            <column  name="description"  value="Test for JavaScript Developer"/>
+        </insert>
+        <insert tableName="test">
+            <column  name="name"  value="Golang"/>
+            <column  name="description"  value="Test for Golang Developer"/>
+        </insert>
+        <insert tableName="test">
+            <column  name="name"  value="Kotlin"/>
+            <column  name="description"  value="Test for Android Developer"/>
+        </insert>
+
+    </changeSet>
+
+</databaseChangeLog>
