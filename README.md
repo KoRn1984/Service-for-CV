@@ -39,10 +39,10 @@
 - логин базы данных: korn
 - пароль базы данных: postgres
 - порт графического клиента pgAdmin 4: 5050
-- логин: *admin@admin.com*
+- логин: admin@admin.com
 - пароль: root
 <hr>
 
-[Ссылка для документации по API на Swagger 3.0]: (http://localhost:8080/swagger-ui/index.html)
+Ссылка для документации по API на Swagger 3.0: (http://localhost:8080/swagger-ui/index.html)
 
 Хранение фотографий и файлов с резюме организовано в контейнере с сервисом в папке */aploads/*
