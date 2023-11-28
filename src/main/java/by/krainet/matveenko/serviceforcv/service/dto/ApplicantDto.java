@@ -29,6 +29,7 @@ public class ApplicantDto {
     private String level;
     @Schema(description = "Резюме")
     private String cv;
+    @Builder.Default
     @Schema(description = "Список возможных направлений")
     private List<DirectionDto> directions;
 }
