@@ -21,6 +21,7 @@ public class ApplicantTestDto {
     private ApplicantDto applicant;
     @Schema(description = "Тест")
     private TestDto test;
+    @Builder.Default
     @Schema(description = "История результатов сдачи тестов (дата, оценка)")
     private Map<LocalDate, String> history;
 }
